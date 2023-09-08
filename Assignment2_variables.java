@@ -13,6 +13,7 @@ System.out.println("Float:"+float1);
 System.out.println("Double:"+db);
 System.out.println("String:"+s);
 System.out.println("Boolean:"+b);
+        System.out.println("______");
 
     }
 }
