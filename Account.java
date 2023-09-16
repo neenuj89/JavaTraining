@@ -16,5 +16,6 @@ public class Account {
     }
     public void withdrawAmount(float withdrawAmount){
         bal=bal-withdrawAmount;
+        System.out.println( "amount debited");
     }
 }

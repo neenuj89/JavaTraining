@@ -24,6 +24,6 @@ System.out.println("name: "+student1.regNum);
         System.out.println("name: "+student2.name);
 System.out.println("age: "+student2.age);
 System.out.println("name: "+student2.regNum);
-      
+      data1.close();
     }
 }
