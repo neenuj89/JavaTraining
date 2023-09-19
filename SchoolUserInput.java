@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SchoolUserInput {
     
     public static void main(String[] args) {
-        Scanner data1 =new Scanner(System.in);
+        Scanner data =new Scanner(System.in);
         Student student1=new Student();
         System.out.println("Student1 details. 1. name, 2.age,3.Reg num");
         student1.name=data.nextLine();
@@ -12,7 +12,7 @@ public class SchoolUserInput {
         
         Student student2=new Student();
         System.out.println("Student2 details. 1. name, 2.age,3.Reg num");
-        student2.name=data.nextLine();
+        student2.name=data.next();
         student2.age=data.nextInt();
         student2.regNum=data.next();
         
@@ -25,6 +25,7 @@ public class SchoolUserInput {
         System.out.println("name: "+student2.name);
 System.out.println("age: "+student2.age);
 System.out.println("name: "+student2.regNum);
+data.close();
       
     }
 }
